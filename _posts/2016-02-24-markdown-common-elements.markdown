@@ -7,9 +7,9 @@ headerImage: false
 tag:
 - markdown
 - elements
-star: true
+star: false
 category: blog
-author: johndoe
+author: weeklies
 description: Markdown summary with different options
 ---
 
