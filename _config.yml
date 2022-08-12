@@ -34,9 +34,10 @@ disqus:
 
 # if you don't have any of social below, comment the line
 github: weeklies
+itchio: myitchioexample
+# twitter: mytwitterexample
+linkedin: mylinkedinexample
 email: example@example.com
-# twitter: mytwitter
-# linkedin: mylinkedin
 
 authors:
   weeklies:
