@@ -34,10 +34,10 @@ disqus:
 
 # if you don't have any of social below, comment the line
 github: weeklies
-itchio: myitchioexample
+itchio: bildungsroman
 # twitter: mytwitterexample
 linkedin: mylinkedinexample
-email: example@example.com
+email: bildungsroman.contact@gmail.com
 
 authors:
   weeklies:
@@ -68,7 +68,7 @@ about: true
 blog: true
 
 # do you want to show the "read time" of the posts?
-read-time: true
+read-time: false
 
 # do you want to show the "tags" inside the posts?
 show-tags: true
