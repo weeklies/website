@@ -1,6 +1,6 @@
 # main text of home
 title: weeklies
-bio: Hobbyist programmer.
+bio: Hobbyist programmer. (Tiny game dev.)
 
 # twitter summary info
 description: 
@@ -42,7 +42,7 @@ email: bildungsroman.contact@gmail.com
 authors:
   weeklies:
     name: weeklies
-    bio: Hobbyist programmer.
+    bio: Hobbyist programmer. Tiny game dev.
     external-image: false
     picture: assets/images/profile.jpg
     # twitter: mytwitter
