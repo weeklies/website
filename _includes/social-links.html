@@ -2,32 +2,50 @@
 
 <div class="social-links">
     {% if site.github %}
-        <a class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank"  rel="noopener">
-            <i class="fa-brands fa-github"></i>
-        </a>
+    <a class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}"
+        target="_blank" rel="noopener">
+        <i class="fa-brands fa-github"></i>
+    </a>
     {% endif %}
 
     {% if site.linkedin %}
-        <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank"  rel="noopener">
-            <i class="fa-brands fa-linkedin"></i>
-        </a>
+    <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}"
+        href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank" rel="noopener">
+        <i class="fa-brands fa-linkedin"></i>
+    </a>
     {% endif %}
 
     {% if site.itchio %}
-        <a class="link" data-title="{{ site.itchio }}.itch.io/" href="https://{{ site.itchio }}.itch.io/" target="_blank"  rel="noopener">
-            <i class="fa-brands fa-itch-io"></i>
-        </a>
+    <a class="link" data-title="{{ site.itchio }}.itch.io/" href="https://{{ site.itchio }}.itch.io/" target="_blank"
+        rel="noopener">
+        <i class="fa-brands fa-itch-io"></i>
+    </a>
+    {% endif %}
+
+    {% if site.mastodon %}
+    <a class="link" data-title="fandom.ink/@{{ site.mastodon }}" href="https://fandom.ink/@{{ site.mastodon }}"
+        target="_blank" rel="noopener">
+        <i class="fa-brands fa-mastodon"></i>
+    </a>
+    {% endif %}
+
+    {% if site.tumblr %}
+    <a class="link" data-title="{{ site.tumblr }}.tumblr.com" href="https://{{ site.tumblr }}.tumblr.com"
+        target="_blank" rel="noopener">
+        <i class="fa-brands fa-tumblr"></i>
+    </a>
     {% endif %}
 
     {% if site.twitter %}
-        <a class="link" data-title="twitter.com/{{ site.twitter }}" href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener">
-            <i class="fa-brands fa-twitter"></i>
-        </a>
+    <a class="link" data-title="twitter.com/{{ site.twitter }}" href="https://twitter.com/{{ site.twitter }}"
+        target="_blank" rel="noopener">
+        <i class="fa-brands fa-twitter"></i>
+    </a>
     {% endif %}
 
     {% if site.email %}
-        <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}"  rel="noopener">
-            <i class="fa-regular fa-envelope"></i>
-        </a>
+    <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}" rel="noopener">
+        <i class="fa-regular fa-envelope"></i>
+    </a>
     {% endif %}
 </div>
