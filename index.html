@@ -3,35 +3,26 @@ layout: page
 title: Home
 ---
 
-<section class="list">
+<section class="list overview">
     <h2>Recent Posts</h2>
     {% for post in site.posts limit: 5 %}
         {% if post.category == "blog" and post.hidden == false %}
-            <div class="item listing {% if post.star %}star{% endif %}">
-                <a class="url" href="{{ site.url }}{{ post.url }}">
-                    <aside class="date"><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-                    <h3 class="title">{{ post.title }}</h3>
-                </a>
-            </div>
+            {% include blog-post.html %}
         {% endif %}
     {% endfor %}
 
-    <div class="pagination toblog">
-        <a href="{{ site.url }}/blog" class="next">More posts</a>
-    </div>
+    {% if site.posts.size > 5 %}
+        <div class="pagination toblog">
+            <a href="{{ site.url }}/blog" class="next">More posts</a>
+        </div>
+    {% endif %}
 </section>
 
-<section class="list">
+<section class="list overview">
     <h2>My Projects</h2>
     {% for post in site.posts %}
         {% if post.projects %}
-            <div class="item listing {% if post.star %}star{% endif %}">
-                <a class="url"
-                    href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                    <aside><time datetime="{{ post.date | date:" %d-%m-%Y" }}">{{ post.date | date: "%b %Y" }}</time></aside>
-                    <h3 class="title">{{ post.title }}</h3>
-                </a>
-            </div>
+        	{% include project-post.html %}
         {% endif %}
     {% endfor %}
 
