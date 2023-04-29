@@ -11,4 +11,4 @@ I make games under the name Bildungsroman, which means “coming of age” in li
 
 I started programming with a love for visual novels and writing. Even though I've read and played much over the years, games that are inclusive and have the imagination to display the vividness of our world and its potential are still rare. It is my wish to contribute to such works one day.
 
-If you would like to chat, you can find me on [Mastodon](https://fandom.ink/@{{ site.mastodon }}) or send me an [email](mailto:{{ site.email }}). (Please be nice—as a wise saying goes, “Let's be excellent to each other.”)
+If you would like to chat, you can find me on [Mastodon](https://fandom.ink/@{{ site.mastodon }}) or send me an [email](mailto:{{ site.email }}). (Please be nice — as a wise saying goes, “Let's be excellent to each other.”)
