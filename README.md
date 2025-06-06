@@ -1,4 +1,4 @@
-## weeklies
+## weeklies.github.io
 
 My personal website.
 
